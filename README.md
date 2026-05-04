@@ -37,7 +37,6 @@
 
 <img width="1013" height="568" alt="스크린샷 2026-05-04 14 57 54" src="https://github.com/user-attachments/assets/be9bb188-31c2-4039-b444-be3aa85ad302" />
 
-<img width="359" height="443" alt="스크린샷 2026-05-04 14 59 34" src="https://github.com/user-attachments/assets/5c4117da-fa29-4f57-83a1-4e320df4830a" />
 <img width="1013" height="568" alt="스크린샷 2026-05-04 14 58 02" src="https://github.com/user-attachments/assets/e5c78f58-6f4c-4e0f-906f-1a6e65c935fc" />
 
 
