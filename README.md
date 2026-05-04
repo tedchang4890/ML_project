@@ -59,11 +59,20 @@
 - **Base Models** : 파라미터 최적화 튜닝이 개별적으로 완료된 5종의 고성능 트리 및 부스팅 모델
 - **Meta Model** : 베이스 모델의 복잡한 비선형 예측값을 최종 결합하고 과적합(Overfitting)을 제어하기 위해 **Logistic Regression** (C=1.1025 / 5.8807 튜닝)을 메타 모델로 채택
 
-Result (최적 임계값 적용 시):
+individual Result:
 | Metric | Score |
 | --- | --- |
-| **Accuracy** | 0.93847 |
+| **XGBoost** | 0.8598 |
+| **LightGBM** | 0.8598 |
+| **CatBoost** | 0.8604 |
+| **Random Forest** | 0.8598 |
+| **Extra Trees** | 0.8605 |
+
+final Result:
+| Metric | Score |
+| --- | --- |
 | **F1 Score** | 0.8621 |
+| **Accuracy** | 0.9347 |
 
 *(참고: 적용된 최적 확률 임계값 = 0.7040)*
 
