@@ -1,6 +1,6 @@
 # iM뱅크 수도권 진출을 위한 기업 상장폐지 예측 및 최적 입지 도출
 
-> 기간 : **2026.04.23.**
+> 기간 : **2026.04.13. ~ 2026.04.23.**
 
 # 1. Tech Stack & Tools
 ### **Language & Environment**
@@ -35,7 +35,11 @@
 
 # 4. EDA
 
-<img width="800" src="https://via.placeholder.com/800x400.png?text=iM+Bank+Branches+Map" alt="iM뱅크 전국 영업점 현황" />
+<img width="1013" height="568" alt="스크린샷 2026-05-04 14 57 54" src="https://github.com/user-attachments/assets/be9bb188-31c2-4039-b444-be3aa85ad302" />
+
+<img width="359" height="443" alt="스크린샷 2026-05-04 14 59 34" src="https://github.com/user-attachments/assets/5c4117da-fa29-4f57-83a1-4e320df4830a" />
+<img width="1013" height="568" alt="스크린샷 2026-05-04 14 58 02" src="https://github.com/user-attachments/assets/e5c78f58-6f4c-4e0f-906f-1a6e65c935fc" />
+
 
 ### EDA 해석
 - **영업점 밀집도 현황** : 현재 iM뱅크 전체 영업점의 약 80%가 대구·경북 지역에 집중되어 있음. -> **시중은행 전환 이후 인구 통계 중심이 아닌 우량 법인 밀집도를 기반으로 한 정교한 수도권 진출 요충지 선점이 필수적임**
@@ -64,7 +68,8 @@ Result (최적 임계값 적용 시):
 
 # 6. SHAP value
 
-<img width="800" src="https://via.placeholder.com/800x400.png?text=SHAP+Summary+Plot" alt="SHAP 피처 중요도 분석" />
+<img width="359" height="443" alt="스크린샷 2026-05-04 14 59 47" src="https://github.com/user-attachments/assets/d978beb1-e48c-4aed-adcd-bccab40b867d" />
+
 
 ### SHAP value 해석
 - **거시경제 지표의 영향력** : SHAP 중요도 상위 10개 중 **전산업생산지수, gdp, 소비자물가지수, 원/달러 환율, 경제심리지수** 등 거시경제 변수들이 최상위권을 휩쓸었음. -> **개별 기업의 재무 상태뿐만 아니라 외부 경기 흐름 및 물가 환경이 기업 생존(상장 유지)에 결정적인 영향을 미침을 확인**
