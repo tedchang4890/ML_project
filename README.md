@@ -57,6 +57,7 @@
 
 ## Stacking Pipe
 - **Base Models** : 파라미터 최적화 튜닝이 개별적으로 완료된 5종의 고성능 트리 및 부스팅 모델
+  
 Result:
 | Metric | Score |
 | --- | --- |
@@ -67,6 +68,7 @@ Result:
 | **Extra Trees** | 0.8605 |
 
 - **Meta Model** : 베이스 모델의 복잡한 비선형 예측값을 최종 결합하고 과적합(Overfitting)을 제어하기 위해 **Logistic Regression** (C=1.1025 / 5.8807 튜닝)을 메타 모델로 채택
+
 Result:
 | Metric | Score |
 | --- | --- |
